@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Banda Neira';
+    src: url('banda_neira_demo-webfont.woff2') format('woff2'),
+         url('banda_neira_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-image: url(Forest%203.png);
+    background-color: #0b1a04;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    overflow: hidden;
+}
+
+a {
+    position: absolute;
+    left: 12vw;
+    bottom: 01vw;
+    
+}
+
+#text{
+    font-family: "Banda Neira";
+    font-size: 40px;
+    color: #d7f5c9;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+img {
+    width: 02vw;
+}
+
+#star1{
+    background-image: url(sparklingstar.gif);
+     position:absolute;
+   left: 15vw;
+    bottom: 05vw;
+    width: 40px;
+    height: 40px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+#star2{
+    background-image: url(sparklingstar.gif);
+     position:absolute;
+   left: 55vw;
+    bottom: 05vw;
+    width: 40px;
+    height: 40px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+#star3{
+    background-image: url(sparklingstar.gif);
+     position:absolute;
+   left: 62vw;
+    bottom: 012vw;
+    width: 40px;
+    height: 40px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+#star4{
+    background-image: url(sparklingstar.gif);
+     position:absolute;
+   left: 65vw;
+    bottom: 05vw;
+    width: 40px;
+    height: 40px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+#star5{
+    background-image: url(sparklingstar.gif);
+     position:absolute;
+   left: 57vw;
+    bottom: 40vw;
+    width: 40px;
+    height: 40px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}

@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Banda Neira';
+    src: url('banda_neira_demo-webfont.woff2') format('woff2'),
+         url('banda_neira_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    cursor: url('zauberstab.png'), auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+#forest{
+    background-image: url(magic%20Forest%202.gif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    z-index: -1;
+
+    }
+h1{
+    font-family: "Banda Neira";
+    font-size: 30px;
+    color: #d7f5c9;
+    top: 20px;
+    position: absolute;
+    }
+#cup{
+    position:absolute;
+    bottom: 30vh;
+    right: 12vw; 
+    width: 120px;
+    height: 120px;
+    background-image: url(cup1.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#cup:hover {
+    position:absolute;
+    bottom: 30vh;
+    right: 12vw; 
+    background-image: url(cup2.png);
+    width: 122px;
+    height: 122px;
+    background-position: bottom;
+    
+}
+#candle{
+    position:absolute;
+    bottom: 30vh;
+    right: 25vw; 
+    width: 140px;
+    height: 140px;
+    background-image: url(candle%20off.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#candle:hover {
+    position:absolute;
+    bottom: 30vh;
+    right: 25vw; 
+    background-image: url(Candle%20on.png);
+    width: 140px;
+    height: 140px;
+    background-position: bottom;
+    
+}
+#boxclosed{
+    position:absolute;
+    bottom: 30vh;
+    right: 40vw; 
+    width: 100px;
+    height: 100px;
+    background-image: url(Schachtel%20zu.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#boxclosed:hover {
+    background-image: url(schachtel%20auf.png);
+    position:absolute;
+    bottom: 30vh;
+    right: 40vw; 
+    width: 120px;
+    height: 120px;
+}
+
+#knifeclosed{
+    position:absolute;
+    bottom: 31vh;
+    right: 57vw; 
+    width: 90px;
+    height: 90px;
+    background-image: url(knife%20closed.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#knifeclosed:hover {
+    position:absolute;
+    bottom: 20vh;
+    right: 51vw; 
+    background-image: url(knife%20open.png);
+    transform: rotate(90deg);
+    width: 200px;
+    height: 200px;
+    background-position: bottom;
+    
+}
+
+#Hair{
+    position:absolute;
+    bottom: 30vh;
+    right: 70vw; 
+    width: 120px;
+    height: 120px;
+    background-image: url(hair%20open.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#Hair:hover {
+    position:absolute;
+    bottom: 30vh;
+    right: 70vw; 
+    background-image: url(Zopf.png);
+    width: 120px;
+    height: 120px;
+    background-position: bottom;
+    
+}
+
+#waldgeist{
+    position:absolute;
+    bottom: 30vh;
+    right: 85vw; 
+    width: 120px;
+    height: 120px;
+    background-image: url(Waldgeist.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#waldgeist:hover {
+    position:absolute;
+    bottom: 30vh;
+    right: 85vw; 
+    background-image: url(waldgeistgr%C3%BCn.png);
+    width: 122px;
+    height: 122px;
+    background-position: bottom;
+    
+}
+#mirror{
+    position:absolute;
+    bottom: 60vh;
+    right: 85vw; 
+    width: 140px;
+    height: 150px;
+    background-image: url(mirror%20off.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#mirror:hover {
+    position:absolute;
+    bottom: 60vh;
+    right: 85vw; 
+    background-image: url(mirror%20on.png);
+    width: 140px;
+    height: 150px;
+    background-position: bottom;
+    
+}
+
+#book{
+    position:absolute;
+    bottom: 60vh;
+    right: 65vw; 
+    width: 140px;
+    height: 130px;
+    background-image: url(buch%20zu.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#book:hover {
+    position:absolute;
+    bottom: 60vh;
+    right: 67vw; 
+    background-image: url(book%20open.png);
+    width: 170px;
+    height: 170px;
+    background-position: bottom;
+    
+}
+
+#armcuff{
+    position:absolute;
+    bottom: 60vh;
+    right: 52vw; 
+    width: 90px;
+    height: 90px;
+    background-image: url(armcuff.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#armcuff:hover {
+    position:absolute;
+    bottom: 60vh;
+    right: 52vw; 
+    width: 90px;
+    height: 90px;
+    background-image: url(armcuff.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    transform: scaleX(-1);
+    
+}
+#angel{
+    position:absolute;
+    bottom: 60vh;
+    right: 40vw; 
+    width: 100px;
+    height: 100px;
+    background-image: url(angel1.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#angel:hover {
+    background-image: url(engel2.png);
+    position:absolute;
+    bottom: 60vh;
+    right: 40vw; 
+    width: 100px;
+    height: 100px;
+}
+
+#plate{
+    position:absolute;
+    bottom: 60vh;
+    right: 25vw; 
+    width: 120px;
+    height: 120px;
+    background-image: url(plate.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#plate:hover {
+    position:absolute;
+    bottom: 60vh;
+    right: 25vw; 
+    width: 120px;
+    height: 120px;
+    background-image: url(plate.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    transform: scaleX(-1);
+    
+}
+#elephant{
+    position:absolute;
+    bottom: 60vh;
+    right: 12vw; 
+    width: 100px;
+    height: 100px;
+    background-image: url(elephant.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#elephant:hover {
+   position:absolute;
+    bottom: 60vh;
+    right: 12vw; 
+    width: 100px;
+    height: 100px;
+    background-image: url(elephant.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    transform: scaleX(-1);
+    
+}
